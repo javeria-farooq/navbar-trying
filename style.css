@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'ali';
+    src: url(./Agbalumo/Agbalumo-Regular.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+
+.img{
+    height: 170px;
+    width: 300px;
+}
+
+#nav{
+    display: inline-block;
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+   /* position: fixed; */
+   /* left: 10px; */
+   position: sticky;
+   top: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* margin-top: 50px; */
+    font-size: xx-large;
+    font-family: 'ali';
+}
+
+#icon{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    background-color: aqua;
+}
+
+.img:hover{
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.content {
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
